@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop-ss.PNG.jpg)
+![](./screenshots/desktop-ss.PNG)
 ![](./screenshots/mobile-ss.PNG)
 
 ### Built with
@@ -35,6 +35,6 @@ Users should be able to:
 
 
 ## Author
-- Frontend Mentor - [@Karunakr-28](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Karunakar-28](https://www.frontendmentor.io/profile/Karunakar-28)
 
 
