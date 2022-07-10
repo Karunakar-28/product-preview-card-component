@@ -1,0 +1,189 @@
+
+:root{
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue:hsl(212, 21%, 14%);
+    --dark-greyish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+p,img,h1{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cream);
+    margin: 0;
+    padding: 25px  17px;
+}
+
+.left-top{
+    margin: 0 auto;
+}
+
+.img-desktop{
+    display: none;
+}
+
+.img-mobile{
+    display: block;
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+
+.right-bottom-wrapper{
+    padding: 21px;
+    border-radius: 0 0 7px 7px;
+    background-color: var(--white);
+}
+
+.right-bottom{
+    
+    font-size: 14px;
+    font-family: 'Montserrat';
+    background-color: var(--white);
+    font-weight: 500;
+    color: var(--dark-greyish-blue);
+}
+
+.product{
+    margin-bottom: 16px;
+    font-size: 13px;
+  
+}
+
+.name{
+    font-family:'Fraunces';
+    font-weight: 700;
+    color: var(--very-dark-blue);
+    margin-bottom: 21px;
+}
+
+.description{
+    margin-bottom: 50px;
+    line-height: 21px;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+
+.price{
+    margin-bottom: 21px;
+}
+
+.new-price{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    color: var(--dark-cyan);
+    display: inline-block;
+    margin-right: 22px;
+}
+
+.old-price{
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: line-through;
+    position: relative;
+    top: -3.3px;
+}
+
+.btn{
+    background-color: var(--dark-cyan);
+    display: block;
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--white);
+    font-weight: 700;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--very-dark-blue);
+}
+
+.btn img{
+    display: inline-block;
+    margin-right: 9px;
+    position: relative;
+    bottom: -2.5px;
+}
+
+
+
+@media screen and (min-width: 460px){
+
+    html{
+        display: grid;
+        place-items: center;
+        height: 100%;
+    }
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .card{
+        width: 41%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 29.5%
+    }
+
+    .img-mobile{
+        display: none;
+    }
+
+    .img-desktop{
+        display: block;
+        height: 100%;
+        width: 100%;
+        border-radius: 7px 0 0 7px;
+    }
+
+    .right-bottom-wrapper{
+        padding: 0px;
+        border-radius: 0 7px 7px 0;
+    }
+
+    .right-bottom{
+        padding: 28.5px;
+        border-radius: 0  7px 7px 0;
+    }
+
+    .left-top, .right-bottom-wrapper{
+        width: 50%;
+    }
+
+    .description{
+        margin-bottom: 25.8px;
+    }
+    
+    .price{
+        margin-bottom: 21.5px;
+    }
+
+    .name{
+        margin-bottom: 17.2px;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+    
+    
